@@ -1,4 +1,5 @@
-from IPython.display import clear_output
+#clear_output will work only in jupyter#
+from IPython.display import clear_output 
 def displayBoard(b = [' ']*10):
     clear_output()
     print(b[7],'|',b[8],'|',b[9])
